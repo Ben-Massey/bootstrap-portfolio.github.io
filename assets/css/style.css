@@ -1,5 +1,5 @@
 .body {
-    width: 480px;
+    width: 980px;
     background-color: white;
     margin: 30px auto;
     padding: 15px;
@@ -12,7 +12,7 @@ img {
     margin: 30px 20px;
 }
 .Me {
-    width: 100%;
+    width: 100%; 
     float: left;
     margin: 0px 16px;
 }
@@ -23,65 +23,6 @@ p {
     width: 100%;
     border-bottom: 2px solid #dddddd;
     margin: 20px auto;
-}
-
-.kitten-text {
-    position: absolute;
-    background-color: #4aaaa5;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    bottom: 30px;
-    right: 290px;
-    width: 140px;
-}
-.sky-text {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: #4aaaa5;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    bottom: 10px;
-    right: 215px;
-    width: 200px;
-}
-.laptop-text {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: #4aaaa5;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    bottom: 60px;
-    right: 230px;
-    width: 200px;
-}
-.capitol-text {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: #4aaaa5;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    bottom: 20px;
-    right: 230px;
-    width: 200px;
-}
-.bridge-text {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: #4aaaa5;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    bottom: 20px;
-    right: 230px;
-    width: 200px;
 }
 #logo {
     width: 250px;
@@ -105,4 +46,27 @@ footer {
     background: #666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
+  }
+.col-sm-6 {
+    width: 42%;
+    border: 0 none;
+    opacity: 0.8;
+}
+.col-sm-6 h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 42%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+    bottom: 30px;
+    left: 35px;
+}
+  @media only screen and (max-width: 480px) {
+
   }
