@@ -68,5 +68,14 @@ footer {
     left: 35px;
 }
   @media only screen and (max-width: 480px) {
-
+    .body {
+        width: 480px;
+        background-color: white;
+        margin: 30px auto;
+        padding: 15px;
+        vertical-align: center;
+    }
+    .col-sm-6 {
+        width: 100%;
+    }
   }
